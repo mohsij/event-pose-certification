@@ -41,7 +41,9 @@ Download extras from the following link and merge with the repo directory
 
 ### Citation
 If this work is useful please consider citing:
-`  @INPROCEEDINGS{10802404,
+```
+@INPROCEEDINGS{
+    10802404,
     author={Jawaid, Mohsi and Talak, Rajat and Latif, Yasir and Carlone, Luca and Chin, Tat-Jun},
     booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
     title={Test-Time Certifiable Self-Supervision to Bridge the Sim2Real Gap in Event-Based Satellite Pose Estimation}, 
@@ -50,5 +52,6 @@ If this work is useful please consider citing:
     number={},
     pages={4534-4541},
     keywords={Training;Satellites;Event detection;Pose estimation;Pipelines;Lighting;Software;Robustness;Intelligent sensors;Synthetic data},
-    doi={10.1109/IROS58592.2024.10802404}}
-`
+    doi={10.1109/IROS58592.2024.10802404}
+}
+```
