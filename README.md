@@ -1,3 +1,5 @@
+## Test-Time Certifiable Self-Supervision to Bridge the Sim2Real Gap in Event-Based Satellite Pose Estimation
+
 ### Prerequisites
 This repo has been tested with pytorch3d built from source using cuda 12.1
 Therefore, please install cuda 12.1 according to official nvidia instructions or update your builds accordingly
@@ -36,3 +38,17 @@ Download extras from the following link and merge with the repo directory
 `python tools/train-selfsupervised-certifier.py --cfg experiments/test/ambient-sidetilt-constant.yaml`
 `python tools/train-selfsupervised-certifier.py --cfg experiments/test/dark-sidetilt-constant.yaml`
 `python tools/train-selfsupervised-certifier.py --cfg experiments/test/sun-sidetilt-constant.yaml`
+
+### Citation
+If this work is useful please consider citing:
+`@INPROCEEDINGS{10802404,
+  author={Jawaid, Mohsi and Talak, Rajat and Latif, Yasir and Carlone, Luca and Chin, Tat-Jun},
+  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={Test-Time Certifiable Self-Supervision to Bridge the Sim2Real Gap in Event-Based Satellite Pose Estimation}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={4534-4541},
+  keywords={Training;Satellites;Event detection;Pose estimation;Pipelines;Lighting;Software;Robustness;Intelligent sensors;Synthetic data},
+  doi={10.1109/IROS58592.2024.10802404}}
+`
