@@ -3,6 +3,10 @@ This repo has been tested with pytorch3d built from source using cuda 12.1
 Therefore, please install cuda 12.1 according to official nvidia instructions or update your builds accordingly
 cuda compiler version should be the same as the cuda version pytorch was built with essentially. Version mismatch will likely give you errors.
 
+### Data
+Download extras from the following link and merge with the repo directory
+`https://drive.google.com/file/d/1NBFPczY8B5_RPXeLLID_eGEboB9xChq2/view?usp=drive_link`
+
 ### Pytorch
 1. Setup conda environment with python==3.9.18 (as tested)
 2. Install pytorch `pip install torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/cu121`
