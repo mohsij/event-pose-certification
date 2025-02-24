@@ -6,8 +6,7 @@ Therefore, please install cuda 12.1 according to official nvidia instructions or
 cuda compiler version should be the same as the cuda version pytorch was built with essentially. Version mismatch will likely give you errors.
 
 ### Data
-Download extras from the following link and merge with the repo directory
-[extras](https://drive.google.com/file/d/1NBFPczY8B5_RPXeLLID_eGEboB9xChq2/view?usp=drive_link)
+Download extras from the following [link](https://drive.google.com/file/d/1NBFPczY8B5_RPXeLLID_eGEboB9xChq2/view?usp=drive_link) and merge with the repo directory
 *Note that the data is an improved version of the one in the paper and includes much more challenging conditions in some scenes along with a more realistic satellite model.
 
 ### Pytorch
