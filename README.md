@@ -6,6 +6,7 @@ cuda compiler version should be the same as the cuda version pytorch was built w
 ### Data
 Download extras from the following link and merge with the repo directory
 `https://drive.google.com/file/d/1NBFPczY8B5_RPXeLLID_eGEboB9xChq2/view?usp=drive_link`
+*Note that the data is an improved version of the one in the paper and includes much more challenging conditions in some scenes along with a more realistic satellite model.
 
 ### Pytorch
 1. Setup conda environment with python==3.9.18 (as tested)
